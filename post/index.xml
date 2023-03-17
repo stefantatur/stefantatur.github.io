@@ -17,9 +17,7 @@
       <link>https://example.com/post/jupyter/</link>
       <pubDate>Fri, 17 Mar 2023 00:00:00 +0000</pubDate>
       <guid>https://example.com/post/jupyter/</guid>
-      <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;libr&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;hello&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;обзор&#34;&gt;Обзор&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;обзор&#34;&gt;Обзор&lt;/h2&gt;
 &lt;p&gt;Сериал поражает своей насыщенностью и продуманностью сюжета. Больше всего мне понравилась актерская игра Киллиана Мерфи и то,как режиссер передал атмосферу Бирменгема 20-ого века.&lt;/p&gt;
 &lt;h2 id=&#34;рекомендации&#34;&gt;Рекомендации&lt;/h2&gt;
 &lt;p&gt;Однозначно рекомендую к просмотру!&lt;/p&gt;
@@ -210,7 +208,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-417932658&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-817435926&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -220,7 +218,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-417932658&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-817435926&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
